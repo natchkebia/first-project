@@ -2,10 +2,10 @@
 <html lang="ka">
     <head>
         <meta charset="UTF-8">
-        <link rel="icon" href="icons/sweet-svgrepo-com.svg" />
+        <link rel="icon" href="images/icons/sweet-svgrepo-com.svg" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;&family=Mulish:ital,wght@0,600;0,700;0,800;&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles/normalize.css" />
         <link rel="stylesheet" href="styles/style.css" />  
         <title>Sweets</title>
@@ -16,18 +16,20 @@
                 <div class="section__content">
                     <span>Opening Hours: 06:00 to 20:00</span>
                     <div class="header-line__icons">
-                        <img class="header-line__icons--image" src="icons/Insta.svg" alt="instagram icon"/>
-                        <img class="header-line__icons--image" src="icons/Vectorr.svg" alt="facebook icon"/>
-                        <img class="header-line__icons--image" src="icons/Twiter.svg" alt="twiter icon"/>
-                        <img class="header-line__icons--image" src="icons/Pintrest.svg" alt="pinterest icon"/>
+                        <img class="header-line__icons--image" src="images/icons/Insta.svg" alt="instagram icon"/>
+                        <img class="header-line__icons--image" src="images/icons/fb.svg" alt="facebook icon"/>
+                        <img class="header-line__icons--image" src="images/icons/Twiter.svg" alt="twiter icon"/>
+                        <img class="header-line__icons--image" src="images/icons/Pintrest.svg" alt="pinterest icon"/>
                     </div>
                 </div>
             </div>
 
             <div class="section logo-conteiner">
-                <div class="section__content">
-                    <img class="logo-conteiner__image" src="images/images.png" alt="candy" />
-                    <h2 class="logo-conteiner__h2" ><span>S</span>weet<span>W</span>orld</h2>
+                <div class="section__content logo-continer__content">
+                    <div class="logo-conteiner__position">
+                        <img class="logo-conteiner__image" src="images/main-icon.png" alt="candy" />
+                        <h2 class="logo-conteiner__h2" ><span>S</span>weet<span>W</span>orld</h2>
+                    </div>
                     <div class="contacts">
                         <div class="contacts__info">
                             <div class="info__icon"></div>
@@ -49,7 +51,7 @@
         </header>
         
         <section class="section hero">
-            <div class="section__content">
+            <div class="section__content hero-section-content">
                 <nav class="hero__navigation">
                     <ul class="navigation__menu">
                         <li>
@@ -85,15 +87,16 @@
             <div class="section main-conteiner">
                 <div class="section__content main-conteiner__content">
                     <img src="images/candymaker.png" alt="person with candy" />
-                    <div class="main-conteiner__content--texts">
-                        <span class="icon-label conteiner__content--style">Welcome SweetWorld</span>
-                        <h2>We Provide Your Happiness</h2>
-                        <span class="main-conteiner__content--maintext">Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium metus. Proin pretium id urna sit amet tincidunt. Interdum et malesuada. In pulvinar viverra diam, nec rutrum mauris maximus non. Aenean sed quam tristique, facilisis est ac, interdum velit</span>
-                    </div>
-                    <div>
-                        <div class="main-conteiner__abou-us--style">
-                            <h2>Years Of Experiance</h2>
+                    <div class="main-conteiner__content--position">
+                        <div class="main-conteiner__content--texts">
+                            <span class="icon-label conteiner__content--style">Welcome SweetWorld</span>
+                            <h2>We Provide Your Happiness</h2>
+                            <span class="main-conteiner__content--maintext">Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium metus. Proin pretium id urna sit amet tincidunt. Interdum et malesuada. In pulvinar viverra diam, nec rutrum mauris maximus non. Aenean sed quam tristique, facilisis est ac, interdum velit</span>
                         </div>
+                        <div class="main-conteiner__abou-us--position">
+                            <div class="main-conteiner__abou-us--style">
+                                <h2>Years Of Experiance</h2>
+                            </div>
                             <div class="main-conteiner__abou-us--list">
                                 <ul>
                                     <li>- Sed varius ipsum lacus</li>
@@ -102,26 +105,35 @@
                                     <li>- Aliquam id ante suscipi fringilla.</li>
                                 </ul>
                             </div>
+                        </div>
                     </div>
                 </div>
             </div>    
 
             <div class="section main-services">
                 <div class="section__content main-services__content">
-                    <h2 class="headings">Professional Main Services</h2>
-                    <span>Welcome to sweetworld, the online bulk candy store that has over 6,000 fresh candies ready for delivery directly to your door! </span>
-                    <div class="main-services__content--blocks">
-                        <span class="block first-block">Commercial</span>
-                        <span class="block second-block">Residential</span>
-                        <span class="block third-block">Industrial</span>
-                    </div>    
+                    <div class="main-services__content--position">
+                        <h2 class="headings headings__text">Professional Main Services</h2>
+                        <p id="headings__text">Welcome to sweetworld, the online bulk candy store that has over 6,000 fresh candies ready for delivery directly to your door! </p>
+                        <div class="main-services__content--blocks">
+                            <span class="block first-block">Commercial</span>
+                            <span class="block second-block">Residential</span>
+                            <span class="block third-block">Industrial</span>
+                        </div>  
+                    </div>
                     <div class="main-services__content--section">
-                        <span class="main-services__content--first icon-label">Based on Commercial</span>
-                        <h2>Commercial</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do incididunt ut labore et dolore magna aliqua. Ut enim ad minimquis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
-                        <a class="hero__cta" href="#">Read More</a>
-                        <img src="images/Candy-Factory-Tours-Hersheys-1.jpg" alt="candy-factory" />
+                        <div class="main-services__contents--position">
+                            <div class="main-services__content--section--position">
+                                <span class="main-services__content--first icon-label">Based on Commercial</span>
+                                <h2>Commercial</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do incididunt ut labore et dolore magna aliqua. Ut enim ad minimquis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
+                                <a class="hero__cta" href="#">Read More</a>
+                            </div>
+                            <div>
+                                <img src="images/Candy-Factory-Tours-Hersheys-1.jpg" alt="candy-factory" />
+                            </div>
+                        </div>
                     </div>            
                 </div>
             </div>
@@ -169,163 +181,179 @@
             </div>
             
             <div class="section chouse-us">
-                <div class="section__content chouse-us__content">
-                    <div class="chouse-us__content--texts">
-                        <span class="icon-label chouse-us__icon">Why Choose Us</span>
-                        <h2>Few Reasons Why You Should Choose Us</h2>
-                        <p>Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium metus. Proin pretium id urna sit amet tincidunt. Interdum et malesuada. </p>
+                <div class=" chouse-us__content">
+                    <div class="chouse-us__backbround--position">
+                        <div class="chouse-us__backbround">
+                            <div class="chouse-us__content--info">
+                                <div class="chouse-us__posittion">
+                                    <span class="chouse-us__info--style">2345</span>
+                                    <span class="chouse-us__info--text">Project Done</span>
+                                </div>
+                                <div class="chouse-us__posittion">
+                                    <span class="chouse-us__info--style">8512</span>
+                                    <span class="chouse-us__info--text">People Working</span>
+                                </div>
+                                <div class="chouse-us__posittion">
+                                    <span class="chouse-us__info--style">2645</span>
+                                    <span class="chouse-us__info--text">Business Partner</span>
+                                </div>
+                                <div class="chouse-us__posittion">
+                                    <span class="chouse-us__info--style">854+</span>
+                                    <span class="chouse-us__info--text">Happy Customers</span>
+                                </div>
+                            </div>           
+                        </div>
                     </div>
-                    <div class="icon-label chous-us__content--sections">
-                        <h4>35 Years Experiance</h4>
-                        <p>Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium </p>
-                    </div >
-                    <div class="icon-label chous-us__content--sections">
-                        <h4>Excellencee Certificate</h4>
-                        <p>Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium </p>
-                    </div>
-                    <div class="icon-label chous-us__content--sections">
-                        <h4>Affordable Price</h4>
-                        <p>Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium </p>
-                    </div>
-                    <div class="chouse-us__backbround">
-                        <div class="chouse-us__content--info">
-                            <div class="chouse-us__posittion">
-                                <span class="chouse-us__info--style">2345</span>
-                                <span class="chouse-us__info--text">Project Done</span>
-                            </div>
-                            <div class="chouse-us__posittion">
-                                <span class="chouse-us__info--style">2345</span>
-                                <span class="chouse-us__info--text">People Working</span>
-                            </div>
-                            <div class="chouse-us__posittion">
-                                <span class="chouse-us__info--style">2345</span>
-                                <span class="chouse-us__info--text">Business Partner</span>
-                            </div>
-                            <div class="chouse-us__posittion">
-                                <span class="chouse-us__info--style">2345</span>
-                                <span class="chouse-us__info--text">Happy Customers</span>
-                            </div>
-                        </div>           
+                    <div class=" chouse-us__content--position">
+                        <div class="chouse-us__content--texts">
+                            <span class="icon-label chouse-us__icon">Why Choose Us</span>
+                            <h2>Few Reasons Why You Should Choose Us</h2>
+                            <p>Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium metus. Proin pretium id urna sit amet tincidunt. Interdum et malesuada. </p>
+                        </div>
+                        <div class="icon-label chous-us__content--sections">
+                            <h4>35 Years Experiance</h4>
+                            <p>Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium </p>
+                        </div >
+                        <div class="icon-label chous-us__content--sections">
+                            <h4>Excellencee Certificate</h4>
+                            <p>Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium </p>
+                        </div>
+                        <div class="icon-label chous-us__content--sections">
+                            <h4>Affordable Price</h4>
+                            <p>Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium </p>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="section our-work">
-                <div class="section__content our-work__content">
+           <div class="section our-work">
+                <div class="our-work__content">
                     <div class="our-work__content--texts">
                         <span class="icon-label our-work__icon">The Gallery</span>
                         <h2>Check Our Recent Work </h2>
                     </div>
+                    <div class="our-work__content--images">
+                        <div class="our-work__images first-image">
+                            <img src="images/mail-shef.png" alt="mail-shef"/>
+                            <h3>Cakes and desserts</h3>
+                            <p>Sue Sheff</p>
+                        </div>
+                        <div class="our-work__images second-image">
+                            <img src="images/man-shef-with-cake.png" alt="man shef with cake" />
+                            <h3>Cakes and desserts</h3>
+                            <p>Sue Sheff</p>
+                        </div>
+                        <div class="our-work__images third-image">
+                            <img src="images/young-woman-chef.png" alt="young-woman-chef" />
+                            <h3>Cakes and desserts</h3>
+                            <p>Sue Sheff</p>
+                        </div>
+                        <div class="our-work__images fourth-image">
+                            <img src="images/famail-shef-cooking.png" alt="famail-shef-cooking" />
+                            <h3>Cakes and desserts</h3>
+                            <p>Sue Sheff</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="our-work__section">
-                <div class="our-work__content--images">
-                    <div class="icon-label our-work__images first-image">
-                        <h3>Cakes and desserts</3h>
-                        <p>Sue Sheff</p>
-                    </div>
-                    <div class="icon-label our-work__images second-image">
-                        <h3>Cakes and desserts</3h>
-                        <p>Sue Sheff</p>
-                    </div>
-                    <div class="icon-label our-work__images third-image">
-                        <h3>Cakes and desserts</3h>
-                        <p>Sue Sheff</p>
-                    </div>
-                    <div class="icon-label our-work__images fourth-image">
-                        <h3>Cakes and desserts</3h>
-                        <p>Sue Sheff</p>
-                    </div>
-                </div>
-            </div>
-
+            
             <div class="section customers-section">
                 <div class="section__content customers-section__content">
-                    <div class="customers-section__icons">
+                    <div class="customers-section__content--header">
                         <div>
-                            <span class="icon-label our-work__icon">Testimonial</span>
-                            <h2>Customers Says</h2>
-                        </div>
-                        <div class="customers-section__icons--position">
-                            <span class="icon-label our-work__icon">Meet Us</span>
-                            <h2>Appointment Form</h2>
-                        </div>
-                    </div>
-                    <div class="Customers-opinion">
-                        <div class="customers-picture">
-                            <img class="customers-picture__photo" src="images/Photo.jpg" alt="mans picture" />
-                            <div class="customers-picture__texts">
-                                <h3>Nancy luther</h3>
-                                <p>NewYork</p>
-                            </div>
-                            <div class="ellipse"><div>
-                            <img class="line" src="images/Line.png" alt="line" />   
-                            <p class="text">Pellentesque vehicula eros neque, maximus mattis est sagittis facilisi.<span>”In sed pretium metus”</span>. Ppretium id urna sit amet tincidunt. Lorem ipsum dolor sit amet,tristique. Duis cursus,in elementum tristique</p>
-                            <div class="ellipses">
-                                <div class="first-ellipse ellipse-style"></div>
-                                <div class="second-ellipse ellipse-style"></div>
-                            </div>
-                        </div>
-                        <div class="Customers-opinion__section">
-                            <div class="Customers-opinion__section--texts">
-                                <span class="icon-label our-work__icon">Any Qustion</span>
-                                <h2>99.9% Customer Satisfation Based</h2>
-                                <p>If you have any questions or need help contact with our team, or call</p>
-                            </div>
-                            <div class="Customers-opinion__section--contact icon-label">(003) 123 456 7890</div>
+                            <span class="icon-label chouse-us__icon">Testimonial</span>
+                            <h3>Customers Says</h3>
+                        </div> 
+                        <div>
+                            <span class="icon-label chouse-us__icon">Meet Us</span>
+                            <h3>Appointment Form</h3>
                         </div>
                     </div>
+                    <div class="customers-section__content--first-blok">
+                        <div class="custumer__opinion">
+                            <div class="custumer__opinion--section">
+                                <div class="custumer__opinion--poto">
+                                    <div class="custume__opinion--poto--position">
+                                        <img src="images/person-Photo.jpg" alt="person-photo" />
+                                        <div>
+                                            <h4>Nancy luther</h4>
+                                            <span>NewYork</span>
+                                        </div>
+                                    </div>
+                                    <div class="ellipse"></div>
+                                </div>
+                                <div>
+                                    <p class="text">Pellentesque vehicula eros neque, maximus mattis est sagittis facilisi.<span>”In sed pretium metus”</span>. Ppretium id urna sit amet tincidunt. Lorem ipsum dolor sit amet,tristique. Duis cursus,in elementum tristique</p>
+                                    <div class="ellipses">
+                                        <div class="first-ellipse ellipse-style"></div>
+                                        <div class="second-ellipse ellipse-style"></div>
+                                    </div>
+                                </div>
+                            </div>
 
-                    <div class="customers-section__content--registration">
-                        <div class="customers-section__registration--form">
-                            <input type="text" id="name" placeholder="Your Name" />
-                            <label for="name"></label>
-                            <input type="email" id="email" placeholder="Email Address"/>
-                            <label for="email"></label>
-                            <input type="tel" id="tel" placeholder="Phone Number" />
-                            <label for="tel"></label>
-                            <input type="date" id="date" placeholder="Date" />
-                            <label for="date"></label>
-                            <textarea id="text" placeholder="Service Description"></textarea>
-                            <label for="text"></label>
-                            <input type="submit" id="submit" value="Submit" />
-                            <label for="submit"></label>
+                            <div class="custumer__content">
+                                <div class="custumer__content--texts">
+                                    <span class="icon-label our-work__icon">Any Qustion</span>
+                                    <h2>99.9% Customer Satisfation Based</h2>
+                                    <p>If you have any questions or need help contact with our team, or call</p>
+                                </div>
+                                <div class="Customers-content__section icon-label">(003) 123 456 7890</div>
+                            </div>
+                        </div>
+                        
+                        <div class="customers-section__registration">
+                            <div class="customers-section__registration--form">
+                                <input type="text" id="name" placeholder="Your Name" />
+                                <label for="name"></label>
+                                <input type="email" id="emaill" placeholder="Email Address"/>
+                                <label for="emaill"></label>
+                                <input type="tel" id="tel" placeholder="Phone Number" />
+                                <label for="tel"></label>
+                                <input type="date" id="date" placeholder="Date" />
+                                <label for="date"></label>
+                                <textarea id="text" placeholder="Service Description"></textarea>
+                                <label for="text"></label>
+                                <input type="submit" id="submit" value="submit" />
+                                <label for="submit"></label>
+                            </div>
                         </div>
                     </div>
-
-                    <div class="customers-section__content--clients">
+                    <div class="customers-section__clients">
                         <div class="customers-section__clients--text">
                             <span class="icon-label our-work__icon">Clients</span>
                             <h2>Our Trusted Big Clients!</h2>
                         </div>
                         <div class="customers-section__clients--photo">
-                            <img src="images/1.png" alt="bride logo" />
-                            <img src="images/2.png" alt="buildin logo" />
-                            <img src="images/3.png" alt="construction logo" />
-                            <img src="images/4.png" alt="cpmpancy logo" />
+                            <img src="images/sponsor-1.png" alt="bride logo" />
+                            <img src="images/sponsor-2.png" alt="buildin logo" />
+                            <img src="images/sponsor-3.png" alt="construction logo" />
+                            <img src="images/sponsor-4.png" alt="cpmpancy logo" />
                         </div>
                     </div>
                 </div>
-            </div>           
+            </div>                                                 
         </main> 
 
         <section class="section price-and-plan">
             <div class="section__content plan-section">
-                <div class="plan-section__texts">
-                    <span class="icon-label our-work__icon plan-icon">Price and Plan</span>
-                    <h2>Let’s Customize Work With Affordable Price</h2>
+                <div class="plan-section__position">
+                    <div class="plan-sectio__position--text">
+                        <span class="icon-label our-work__icon plan-icon">Price and Plan</span>
+                        <h2>Let’s Customize Work With Affordable Price</h2>
+                    </div>
+                    <p id="plan-section__mainText">Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium metus. Proin pretium id urna sit amet tincidunt. Interdum et malesuada.</p>
                 </div>
-                <p id="plan-section__mainText">Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium metus. Proin pretium id urna sit amet tincidunt. Interdum et malesuada.</p>
+                
                 <div class="price-section">
                     <div class="price-section__layer">
-                        <div>
+                        <div class="price-section__layer--position">
                             <div class="price-section__layer--texts">
                                 <h3>Basic Plan</h3>
                                 <h2>$ 599.00</h2>
                             </div>
                             <p>Per Visit Charge</p>
-                            <img class="differentImg" src="images/Line.png" alt="line" />
                         </div>
+
                         <div class="price-section__layer--style">
                             <span class="icon-label chouse-us__icon price-section__icon">Electrical Service</span>
                             <span class="icon-label chouse-us__icon price-section__icon">Distribution Power Systemss</span>
@@ -337,16 +365,19 @@
                         </div>
                         <div class="price-section__layer--submit">Buy Now</div>
                     </div>
+                    
                     <div class="price-section__layer">
-                        <div>
+                        <div class="price-section__layer--position">
                             <div class="price-section__layer--texts">
                                 <h3>Standard</h3>
                                 <h2>$ 699.00</h2>
                             </div>
-                            <div id="diffeent">Popular</div>
-                            <p>Per Visit Charge</p>
-                            <img src="images/Line.png" alt="line" />
+                            <div>
+                                <div id="different">Popular</div>
+                                <p>Per Visit Charge</p>
+                            </div>
                         </div>
+
                         <div class="price-section__layer--style--defferent">
                             <span class="icon-label chouse-us__icon price-section__icon">PLC Controls</span>
                             <span class="icon-label chouse-us__icon price-section__icon">Conveyor systems</span>
@@ -358,15 +389,16 @@
                         </div>
                         <div class="price-section__layer--submit price-section__layer--differentsubmit">Buy Now</div>
                     </div>
+                        
                     <div class="price-section__layer">
-                        <div>
+                        <div class="price-section__layer--position">
                             <div class="price-section__layer--texts">
                                 <h3>Professional</h3>
                                 <h2>$ 799.00</h2>
                             </div>
                             <p>Per Visit Charge</p>
-                            <img class="differentImg" src="images/Line.png" alt="line" />
                         </div>
+
                         <div class="price-section__layer--style">
                             <span class="icon-label chouse-us__icon price-section__icon">Cable Tray Installations</span>
                             <span class="icon-label chouse-us__icon price-section__icon">Wiring Upgrades</span>
@@ -378,19 +410,19 @@
                         </div>
                         <div class="price-section__layer--submit">Buy Now</div>
                     </div>
-                    <div class="plansection__texts">
+                </div>
+                <div class="plansection__texts">
+                    <div>
+                        <span class="icon-label chouse-us__icon price-section__icon plansection__icon">Affordable Price</span>
+                        <p>lacinia, tempor lacus at, eleifend diam. Maecenas tempus tincidunt placeratneque, maximus mattis</p>
+                    </div>
+                    <div>
                         <div>
-                            <span class="icon-label chouse-us__icon price-section__icon plansection__icon">Affordable Price</span>
-                            <p>lacinia, tempor lacus at, eleifend diam. Maecenas tempus tincidunt placeratneque, maximus mattis</p>
-                        </div>
-                        <div>
-                            <div>
-                                <span class="icon-label chouse-us__icon price-section__icon plansection__icon">Fixed Plan</span>
-                                <p>Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium </p>
-                            </div>
+                            <span class="icon-label chouse-us__icon price-section__icon plansection__icon">Fixed Plan</span>
+                            <p>Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium </p>
                         </div>
                     </div>
-                </div> 
+                </div>
             </div>
         </section>
         
@@ -401,8 +433,8 @@
                     <h2>Latest News and Articles</h2>
                 </div>
                 <div class="News-and-Articles__section--img">
-                    <img src="images/Young woman chef cooking.jpg" alt="Young woman chef cooking cake" />
-                    <img src="images/l-intro-1644956331.jpg" alt="woman with cake" />
+                    <img src="images/make-cake.png" alt="make-cake" />
+                    <img src="images/famale-is-making-cake.png" alt="woman-is-making-cake" />
                 </div>
                 <div class="News-and-Articles__section--conteiner">
                     <div>                
@@ -436,88 +468,97 @@
                         <h2>Subscribe Our Newsletter</h2>
                         <p><span>stay in touch with us to get latest news</span>. maximus mattis est facilisi. In sed pretium Proin pretium id urna sit amet tincidunt.</p>
                     </div>
-                    <div class="footer__head-section--inputs">
-                        <input type="email" id="email" placeholder="your mail address here" />
-                        <label for="email"></label>
-                        <input tupe="submit"  id="subscribe" value="Subscribe"/>
-                        <lapel for="subscribe"></lapel>
+                    <div>
+                        <div class="footer__head-section--inputs">
+                            <input type="email" id="email" placeholder="your mail address here" />
+                            <label for="email"></label>
+                            <input type="submit"  id="subscribe" value="Subscribe"/>
+                            <label for="subscribe"></label>
+                        </div>
                     </div>
                 </div>
             </section>
 
             <div class="section footer">
                 <div class="section__content footer__content">
-                    <div class="footer__conteiner--icon">
-                        <img class="footer__conteinre--image" src="images/lIcon.png" alt="icon" />
-                        <h2 class="logo-conteiner__h2 footer__conteiner--h2" ><span>S</span>weet<span>W</span>orld</h2>
+                    <div class="footer__content--icons">
+                        <div class="footer__conteiner--icon">
+                            <img class="footer__conteinre--image" src="images/lIcon.png" alt="icon" />
+                            <h2 class="logo-conteiner__h2 footer__conteiner--h2" ><span>S</span>weet<span>W</span>orld</h2>
+                        </div>
+                        <div class="footer-contacts">
+                            <div class="footer__info">
+                                <div class="info__icon"></div>
+                                <div class="info__style">
+                                    <span class="footer__title">Mail Us</span>
+                                    <span class="footer__text">Info@Sweetworld.com</span>
+                                </div>
+                            </div> 
+                            <div class="footer__info">
+                                <div class="info__icon info__icon--phone"></div>
+                                <div class="info__style">
+                                    <span class="footer__title">Call Us</span>
+                                    <span class="footer__text">+01 569 896 654</span>
+                                </div>
+                            </div>
+                            <div class="footer__info">
+                                <div class="info__icon info__icon--phone info__icon--location"></div>
+                                <div class="info__style">
+                                    <span class="footer__title">Location</span>
+                                    <span class="footer__text">Amsterdam, 109-74</span>
+                                </div>
+                            </div> 
+                       </div>
                     </div>
-                    <div class="footer-contacts">
-                        <div class="footer__info">
-                            <div class="info__icon"></div>
-                            <div class="info__style">
-                                <span class="footer__title">Mail Us</span>
-                                <span class="footer__text">Info@Sweetworld.com</span>
-                            </div>
-                        </div> 
-                        <div class="footer__info">
-                            <div class="info__icon info__icon--phone"></div>
-                            <div class="info__style">
-                                <span class="footer__title">Call Us</span>
-                                <span class="footer__text">+01 569 896 654</span>
-                            </div>
-                        </div>
-                        <div class="footer__info">
-                            <div class="info__icon info__icon--phone info__icon--location"></div>
-                            <div class="info__style">
-                                <span class="footer__title">Location</span>
-                                <span class="footer__text">Amsterdam, 109-74</span>
-                            </div>
-                        </div> 
-                   </div>
-                   <img src="images/bigLine.png" alt="line" />
-                   <div class="footer__icons">
-                        <p>Denouncing pleasure and praising pain was born and I will givg you a coghmplete acchount of the system, and expound the actual</p>
-                        <div class="icons">
-                            <div class="footer__icon info__icon--insta"></div>
-                            <div class="footer__icon info__icon--fb"></div>
-                            <div class="footer__icon info__icon--twiter"></div>
-                            <div class="footer__icon info__icon--pinterest"></div>
-                        </div>
-                    <img id="line" src="images/Linee.png" alt="line" />
-                   </div>
-                    <div class="footer__content--texts">
+                    
+                    <div class="footer__final--blok">
                         <div>
-                            <h3>Explore</h3>
-                            <p>About Us</p>
-                            <p>Gallery</p>
-                            <p>Offers</p>
-                            <p>Pricing</p>
-                            <p>FAQ</p>
+                            <div class="footer__icons">
+                                <p>Denouncing pleasure and praising pain was born and I will givg you a coghmplete acchount of the system, and expound the actual</p>
+                                <div class="icons">
+                                    <div class="footer__icon info__icon--insta"></div>
+                                    <div class="footer__icon info__icon--fb"></div>
+                                    <div class="footer__icon info__icon--twiter"></div>
+                                    <div class="footer__icon info__icon--pinterest"></div>
+                                </div>
+                           </div>
                         </div>
                         <div>
-                            <h3>Quick Links</h3>
-                            <p>Services</p>
-                            <p>Blog</p>
-                            <p>Contact Us</p>
-                            <p>Service Request</p>
-                            <p>Estimation Calculator</p>
+                            <div class="footer__content--texts">
+                                <div>
+                                    <h3>Explore</h3>
+                                    <p>About Us</p>
+                                    <p>Gallery</p>
+                                    <p>Offers</p>
+                                    <p>Pricing</p>
+                                    <p>FAQ</p>
+                                </div>
+                                <div>
+                                    <h3>Quick Links</h3>
+                                    <p>Services</p>
+                                    <p>Blog</p>
+                                    <p>Contact Us</p>
+                                    <p>Service Request</p>
+                                    <p>Estimation Calculator</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="footer__content--texts--second">
+                                <h3>Uitility Pages</h3>
+                                <p>Style Guide</p>
+                                <p>Changelog</p>
+                                <p>Licenses</p>
+                                <p>Protected Page</p>
+                                <p>404 Page</p>
+                            </div>
                         </div>
                     </div>
-                    <img id="secondline" src="images/Linee.png" alt="line" />
-                    <div class="foot__text">
-                        <div>
-                            <h3>Uitility Pages</h3>
-                            <p>Style Guide</p>
-                            <p>Changelog</p>
-                            <p>Licenses</p>
-                            <p>Protected Page</p>
-                            <p>404 Page</p>
-                        </div>
-                    <div> 
-                    <img id="bigline" src="images/bigLine.png" alt="line" />
-                    <div class="footer-text">Copyright © BlueCollar | Designed by VictorFlow Templates - Powered by Webflow</div>
+                    <div class="footer__ending">
+                        <div class="footer-text">Copyright © BlueCollar | Designed by VictorFlow Templates - Powered by Webflow</div>
+                    </div>
                 </div>
             </div>
-        </footer>
+        </footer> 
     </body>
 </html>
